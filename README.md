@@ -1,5 +1,5 @@
 
-## finds all your uncategorized torent in qbittorrent and adds them to a set category
+## finds all your uncategorized torrents in qbittorrent and adds them to a set category
 
 ## install
 install node.js
@@ -15,7 +15,7 @@ example:
 
 This means that for any torrent that has a tracker matching `hd-torrents` or `hdts-announce`, it will be given a category of `hdtorrents`
 You dont need to enter the entire tracker url (to avoid entering passkeys) only a partial match.
-Note, you don't need to create all the categories used in the settings, but if a torrent is set to a category (for example `hdtorrents`), that category needs to alread yexist in qbittorrent. 
+Note, you don't need to create all the categories used in the settings, but if a torrent is set to a category (for example `hdtorrents`), that category needs to already exist in qbittorrent. 
 This script doesnt create categories, it only sets ones that already exist.
 
 ## run
